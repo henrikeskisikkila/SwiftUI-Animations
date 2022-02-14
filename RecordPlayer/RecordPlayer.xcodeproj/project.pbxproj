@@ -11,6 +11,7 @@
 		BBCEC1C327BAC01C00C26639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEC1C227BAC01C00C26639 /* ContentView.swift */; };
 		BBCEC1C527BAC01F00C26639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCEC1C427BAC01F00C26639 /* Assets.xcassets */; };
 		BBCEC1C827BAC01F00C26639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCEC1C727BAC01F00C26639 /* Preview Assets.xcassets */; };
+		BBCEC1CF27BAC11700C26639 /* RecordPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEC1CE27BAC11700C26639 /* RecordPlayerBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BBCEC1C227BAC01C00C26639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBCEC1C427BAC01F00C26639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBCEC1C727BAC01F00C26639 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBCEC1CE27BAC11700C26639 /* RecordPlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BBCEC1C027BAC01C00C26639 /* RecordPlayerApp.swift */,
 				BBCEC1C227BAC01C00C26639 /* ContentView.swift */,
+				BBCEC1CE27BAC11700C26639 /* RecordPlayerBox.swift */,
 				BBCEC1C427BAC01F00C26639 /* Assets.xcassets */,
 				BBCEC1C627BAC01F00C26639 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				BBCEC1C327BAC01C00C26639 /* ContentView.swift in Sources */,
 				BBCEC1C127BAC01C00C26639 /* RecordPlayerApp.swift in Sources */,
+				BBCEC1CF27BAC11700C26639 /* RecordPlayerBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
