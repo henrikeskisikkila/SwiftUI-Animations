@@ -14,7 +14,7 @@ struct ContentView: View {
     let audioPlayer = AudioPlayer()
     
     var body: some View {
-        VStack {
+        VStack(spacing: 16) {
             ZStack {
                 RecordPlayerBox()
                 RecordView(degrees: $degrees, shouldAnimate: $isPlaying)
