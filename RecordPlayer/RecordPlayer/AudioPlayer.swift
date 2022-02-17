@@ -10,8 +10,8 @@ import AVFAudio
 
 class AudioPlayer {
     var audioPlayer: AVAudioPlayer?
-    let file = "music"
-    let type = "m4a"
+    let file = "summer"
+    let type = "mp3"
     
     func play() {
         guard let path = Bundle.main.path(forResource: file, ofType: type) else {
