@@ -11,6 +11,8 @@
 		BBCEC22727BE3F2E00C26639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEC22627BE3F2E00C26639 /* ContentView.swift */; };
 		BBCEC22927BE3F3400C26639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCEC22827BE3F3400C26639 /* Assets.xcassets */; };
 		BBCEC22C27BE3F3400C26639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCEC22B27BE3F3400C26639 /* Preview Assets.xcassets */; };
+		BBCEC23327BE404D00C26639 /* FlyingEagle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEC23227BE404D00C26639 /* FlyingEagle.swift */; };
+		BBCEC23527BE431A00C26639 /* AnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEC23427BE431A00C26639 /* AnimatedText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BBCEC22627BE3F2E00C26639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBCEC22827BE3F3400C26639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBCEC22B27BE3F3400C26639 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBCEC23227BE404D00C26639 /* FlyingEagle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingEagle.swift; sourceTree = "<group>"; };
+		BBCEC23427BE431A00C26639 /* AnimatedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BBCEC22427BE3F2E00C26639 /* ImageTextAnimationsApp.swift */,
 				BBCEC22627BE3F2E00C26639 /* ContentView.swift */,
+				BBCEC23427BE431A00C26639 /* AnimatedText.swift */,
+				BBCEC23227BE404D00C26639 /* FlyingEagle.swift */,
 				BBCEC22827BE3F3400C26639 /* Assets.xcassets */,
 				BBCEC22A27BE3F3400C26639 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCEC23327BE404D00C26639 /* FlyingEagle.swift in Sources */,
+				BBCEC23527BE431A00C26639 /* AnimatedText.swift in Sources */,
 				BBCEC22727BE3F2E00C26639 /* ContentView.swift in Sources */,
 				BBCEC22527BE3F2E00C26639 /* ImageTextAnimationsApp.swift in Sources */,
 			);
