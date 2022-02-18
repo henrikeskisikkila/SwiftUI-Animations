@@ -11,6 +11,7 @@
 		BBA56FDA27C006970069EAC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA56FD927C006970069EAC2 /* ContentView.swift */; };
 		BBA56FDC27C006990069EAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA56FDB27C006990069EAC2 /* Assets.xcassets */; };
 		BBA56FDF27C006990069EAC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA56FDE27C006990069EAC2 /* Preview Assets.xcassets */; };
+		BBA56FE627C008170069EAC2 /* BackgroundScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA56FE527C008170069EAC2 /* BackgroundScroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BBA56FD927C006970069EAC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBA56FDB27C006990069EAC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBA56FDE27C006990069EAC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBA56FE527C008170069EAC2 /* BackgroundScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundScroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BBA56FD727C006970069EAC2 /* HueRotationBackgroundScrollApp.swift */,
 				BBA56FD927C006970069EAC2 /* ContentView.swift */,
+				BBA56FE527C008170069EAC2 /* BackgroundScroll.swift */,
 				BBA56FDB27C006990069EAC2 /* Assets.xcassets */,
 				BBA56FDD27C006990069EAC2 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA56FE627C008170069EAC2 /* BackgroundScroll.swift in Sources */,
 				BBA56FDA27C006970069EAC2 /* ContentView.swift in Sources */,
 				BBA56FD827C006970069EAC2 /* HueRotationBackgroundScrollApp.swift in Sources */,
 			);
