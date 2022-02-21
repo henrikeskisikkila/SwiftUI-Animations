@@ -12,8 +12,23 @@ struct ContentView: View {
     @State private var hueRotation = false
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        GeometryReader { reader in
+            BackgroundScroll(imageCount: backgrounds.count) {
+                ForEach (0 ..< backgrounds.count) { index in
+                    Image(backgrounds[index])
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: reader.size.width, height: reader.size.height)
+                        .clipped()
+                }
+            }
+            .hueRotation(.degrees(hueRotation ? 10 : 500))
+            .animation(.easeInOut(duration: 5).repeatForever(autoreverses: true), value: hueRotation)
+            .onAppear {
+                hueRotation.toggle()
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
