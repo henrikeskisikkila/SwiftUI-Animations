@@ -11,6 +11,7 @@
 		BBA56FF627C69D0A0069EAC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA56FF527C69D0A0069EAC2 /* ContentView.swift */; };
 		BBA56FF827C69D0D0069EAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA56FF727C69D0D0069EAC2 /* Assets.xcassets */; };
 		BBA56FFB27C69D0D0069EAC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA56FFA27C69D0D0069EAC2 /* Preview Assets.xcassets */; };
+		BBA5700227C6A6180069EAC2 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5700127C6A6180069EAC2 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BBA56FF527C69D0A0069EAC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBA56FF727C69D0D0069EAC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBA56FFA27C69D0D0069EAC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBA5700127C6A6180069EAC2 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BBA56FF327C69D0A0069EAC2 /* PresentDismissAnimationApp.swift */,
 				BBA56FF527C69D0A0069EAC2 /* ContentView.swift */,
+				BBA5700127C6A6180069EAC2 /* SettingView.swift */,
 				BBA56FF727C69D0D0069EAC2 /* Assets.xcassets */,
 				BBA56FF927C69D0D0069EAC2 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA5700227C6A6180069EAC2 /* SettingView.swift in Sources */,
 				BBA56FF627C69D0A0069EAC2 /* ContentView.swift in Sources */,
 				BBA56FF427C69D0A0069EAC2 /* PresentDismissAnimationApp.swift in Sources */,
 			);
