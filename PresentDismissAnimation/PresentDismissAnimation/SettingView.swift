@@ -14,27 +14,30 @@ struct SettingView: View {
     
     var body: some View {
         NavigationView {
-            List {
-                Section(header: Text("Date and Time")) {
-                    DatePicker(selection: $setDate, label: {
-                        Image(systemName: "calendar.circle")
-                    })
-                }
-                Section(header: Text("Time Zone")) {
-                    Toggle(isOn: $timezone, label: {
-                        HStack {
-                            Image(systemName: "timer")
-                            Text("Timezone")
-                        }
-                    })
-                }
-                Section(header: Text("Alarm Volume")) {
-                    Text("Volume \(String(format: "%.0f", volume as Double))")
-                    Slider(value: $volume, in: 0...100) { _ in }
+            ZStack {
+                Color.red.ignoresSafeArea()
+                List {
+                    Section(header: Text("Date and Time")) {
+                        DatePicker(selection: $setDate, label: {
+                            Image(systemName: "calendar.circle")
+                        })
+                    }
+                    Section(header: Text("Time Zone")) {
+                        Toggle(isOn: $timezone, label: {
+                            HStack {
+                                Image(systemName: "timer")
+                                Text("Timezone")
+                            }
+                        })
+                    }
+                    Section(header: Text("Alarm Volume")) {
+                        Text("Volume \(String(format: "%.0f", volume as Double))")
+                        Slider(value: $volume, in: 0...100) { _ in }
+                    }
                 }
             }
-            .frame(width: 400, height: 625)
         }
+        .frame(width: 400, height: 625)
     }
 }
 
